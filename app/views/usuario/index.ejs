@@ -1,0 +1,22 @@
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>Usuario</th>
+      <th>Senha</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+  <% usuarios.forEach(function(usuario) { %>
+    <tr>
+      <td><%- usuario.email %></td>
+      <td><%- usuario.senha %></td>
+      <td>
+      <a href="/usuarios/<%- usuario._id %>">Visualizar</a>
+      <a href="/usuarios/<%- usuario._id %>/editar">Editar</a>
+      <a href="/usuarios/<%- usuario._id %>/excluir">Excluir</a>
+      </td>
+    </tr>
+  <% }) %>
+  </tbody>
+</table>

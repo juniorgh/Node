@@ -1,0 +1,26 @@
+{
+  "name": "Node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "Gilson Gonçalves Junior <jr_juk@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juniorgh/Node/issues"
+  },
+  "homepage": "https://github.com/juniorgh/Node",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juniorgh/Node.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.8.1",
+    "ejs": "^1.0.0",
+    "express": "^4.9.0",
+    "express-ejs-layouts": "^1.1.0",
+    "mongoose": "^3.8.16",
+    "mongoose-auto-increment": "^3.0.8",
+    "morgan": "^1.3.0",
+    "path": "^0.4.9"
+  }
+}
