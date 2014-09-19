@@ -1,0 +1,17 @@
+<form action="/grupos/salvar" method="POST" class="form-horizontal" role="form">  
+  <% if (grupo.id) { %>
+  <input type="hidden" name="grupo[id]" value="<%- grupo.id || '' %>">
+  <% } %>
+  <div class="form-group">
+    <label class="col-sm-2" for="exampleInputEmail1">Criar grupo</label>
+    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+    <input type="text" name="grupo[nome]" value='<%- grupo.nome || '' %>' class="form-control" id="exampleInputEmail1" placeholder="Criar grupo">
+    </div>
+  </div>
+  
+ <div class="form-group">
+    <div class="col-sm-offset-2">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form>

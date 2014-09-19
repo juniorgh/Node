@@ -1,0 +1,43 @@
+<fieldset>
+    <legend><h3>Cadastrar Produtos</h3></legend>
+
+    <form action="/itens/salvar" method="POST" class="form-horizontal" role="form"> 
+        
+        <div class="form-group">
+            <label class="col-sm-2" for="exampleInputPassword1">Nome do produto</label>
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                <input name="item[nome]"  class="form-control" id="exampleInputItemNome" placeholder="Digite aqui o nome">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2" for="exampleInputPassword1">Preço</label>
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                <input name="item[preco]"  class="form-control" id="exampleInputItemPreco" placeholder="Digite aqui o preço">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2" for="exampleInputQtd">Quantidade</label>
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                <input name="item[qtd]"  class="form-control" id="exampleInputQtd" placeholder="Digite aqui a quantidade do produto">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2" for="exampleInputItemDesc">Descricao do produto</label>
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                <textarea name="item[descricao]" class="form-control" id="exampleInputDescr" placeholder="Digite aqui a descricao" >
+
+                </textarea>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2">
+                <button type="submit" class="btn btn-default">Submit</button>
+                <!-- <a> href="/usuarios/novo">cadastre-se</a -->
+            </div>
+        </div>
+    </form>
+</fieldset>

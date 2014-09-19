@@ -1,0 +1,20 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="painel-title">
+    Variações do produto
+    </h3>
+  </div>
+  
+  <div class="panel-body">
+    <ul>
+      <li><%- itens.nome %></li>
+      <ul>
+        <% itens.variacao.forEach( function (variacao) { %>
+        <li>
+          <%- variacao.descricao %>
+        </li>
+        <% }); %>
+      </ul>
+    </ul>
+  </div>
+</div>

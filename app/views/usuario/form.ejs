@@ -1,21 +1,98 @@
-<form action="/usuarios/salvar" method="POST" class="form-horizontal" role="form">  
-  <div class="form-group">
-    <label class="col-sm-2" for="exampleInputEmail1">Email address</label>
-    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-    <input type="email"  name="usuario[email]" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-    </div>
-  </div>
-  
-  <div class="form-group">
-    <label class="col-sm-2" for="exampleInputPassword1">Password</label>
-    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
-      <input type="password" name="usuario[senha]" class="form-control" id="exampleInputPassword1" placeholder="Password">
-    </div>
-  </div>
-  
-  <div class="form-group">
-    <div class="col-sm-offset-2">
-      <button type="submit" class="btn btn-default">Submit</button>
-    </div>
-  </div>
-</form>
+
+<fieldset>
+  <legend><h3>Cadastrar Usuario</h3></legend>
+      <form action="/usuarios/salvar" method="POST" class="form-horizontal" role="form" enctype="multipart/form-data">  
+      <% if (usuario.id) { %>
+      <input type="hidden" name="usuario[id]" value="<%- usuario.id || '' %>">
+      <% } %>
+
+      <div class="form-group">
+        <label class="col-sm-2" for="exampleInputEmail1">Nome</label>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+        <input type="text" name="usuario[nome]" value='<%- usuario.nome || '' %>' class="form-control" id="exampleInputNome1" placeholder="Enter Name">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-sm-2" for="exampleInputDescricao">Descrição</label>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+        <textarea type="descricao" name="usuario[descricao]" value='<%- usuario.descricao || '' %>' class="form-control" id="exampleInputDescricao" placeholder="Enter Descricao">
+
+        </textarea>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label class="col-sm-2" for="exampleInputPassword1">Password</label>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+          <input type="password" name="usuario[senha]" value='<%- usuario.senha || '' %>' class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-sm-2" for="exampleInputPassword1">Grupo</label>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+        <select name="usuario[grupo]" id="usuario_grupo" class="form-control">
+          <option value="0">Selecione</option>
+          <% grupos.forEach(function (grupo) { %>
+          <option<%- grupo.id == usuario.grupo ? " selected" : "" %> value="<%- grupo.id %>"><%- grupo.nome %></option>
+          <% }) %>
+        </select>
+        </div>
+      </div>
+        
+        
+      <div class="form-group">
+        <label class="col-sm-2" for="exampleInputPassword1">Carregar imagem</label>
+          <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+            <div class="btn btn-default" style="position:relative;">
+             <input type="file" name="usuario" value="" style="position: absolute; width:100%; height: 100%; opacity:0" >
+             carregar imagem
+            </div>
+          </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-sm-2" for="exampleInputEmail1">Email</label>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+        <input type="email" name="usuario[email]" value='<%- usuario.email || '' %>' class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-sm-2" for="exampleInputIdade">Idade</label>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+          <input type="text" name="usuario[idade]" value='<%- usuario.idade || '' %>' class="form-control" id="exampleInputIdade" placeholder="Enter Idade"/>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-sm-2" for="exampleInputCidade">Cidade</label>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+          <input type="text" name="usuario[cidade]" value='<%- usuario.cidade || '' %>' class="form-control" id="exampleInputCidade" placeholder="Enter Cidade"/>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-sm-2" for="exampleInputSite">Site</label>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+          <input type="text" name="usuario[site]" value='<%- usuario.site || '' %>' class="form-control" id="exampleInputSIte" placeholder="Enter Site"/>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-sm-2" for="exampleInputData">Data</label>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+          <input type="date" name="usuario[data]" value='<%- moment(usuario.data).format('DD/MM/YYYY') || '' %>' class="form-control" id="exampleInputData" placeholder="Enter Data de Nascimento"/>
+        </div> 
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-2">
+          <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+      </div>
+    </form>
+</fieldset>
+
+

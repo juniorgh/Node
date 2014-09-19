@@ -1,0 +1,62 @@
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="painel-title">
+      Gerenciador de Grupos
+    </h3>
+  </div>
+  <div class="panel-body">
+    <fieldset>
+      <legend>
+        <a href="/grupos/novo">
+          <i class="glyphicon glyphicon-plus-sign">
+          </i>
+          Add
+        </a>
+        <a class="btn btn-link" href="/usuarios"> <i class="glyphicon glyphicon-user"></i> Gerenciar Usuarios</a>
+      </legend>
+      <table class="table table-hover table-bordered">
+        <thead>
+          <tr>
+            <th>Nome do Grupo</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% grupos.forEach(function(grupo) { %>
+          <tr>
+            <td>
+              <a href='/grupos/<%- grupo._id %>/integrantes'> <%- grupo.nome %> </a></td>
+              <td>
+                <a href='/grupos/<%- grupo._id %>'>
+                  <button class="btn btn-success"> 
+                    <i class="glyphicon glyphicon-eye-open"> 
+                    </i> Visualizar  
+                  </button>
+                </a>
+
+                <a href="/grupos/<%- grupo._id %>/editar"> 
+                  <button class="btn btn-info">
+                    <i class="glyphicon glyphicon-edit">
+                    </i>
+                    Editar 
+                  </button>
+                </a>
+
+
+                <a href="/grupos/<%- grupo._id %>/excluir"> 
+                  <button class="btn btn-danger"> 
+                    <i class="glyphicon glyphicon-trash"></i> 
+                    Excluir
+                  </button>
+                </a>
+              </td>
+            </tr>
+            <% }) %>
+          </tbody>
+        </table>
+      </fieldset>
+    </div>
+  </div>
+
+

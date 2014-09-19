@@ -1,0 +1,78 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="painel-title">
+      Gerenciador de Produtos
+    </h3>
+  </div>
+  <div class="panel-body">
+    <fieldset>
+      <legend>
+        <a href="/itens/novo">
+          <i class="glyphicon glyphicon-plus-sign">
+          </i>
+          Add
+        </a>
+        <a class="btn btn-link" href="/usuarios"> <i class="glyphicon glyphicon-user"></i> Gerenciar Usuarios</a>
+        <a class="btn btn-link" href="/grupos"> <i class="glyphicon glyphicon-user"></i> Gerenciar Grupos</a>
+      </legend>
+    </fieldset>
+
+
+    <div class="table-responsive">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th> nome </th>
+            <th> preço </th>
+            <th> Quantidade </th>
+            <th>  </th>
+          </tr>
+        </thead>
+        <tbody>
+          <% itens.forEach(function (item) { %>
+          <tr>
+            <td>
+              <%- item.nome %> 
+            </td>
+            <td>
+              <%- item.preco %> 
+            </td>
+            <td>
+              <%- item.qtd %> 
+            </td>
+            <td>
+              <a href="/itens/<%- item.id %>/view " title="">
+                <button class="btn btn-primary">
+                  <i class="glyphicon glyphicon-eye-open"></i>
+                  ver variações
+                </button>  
+              </a>
+
+              <a href="itens/<%- item._id %>/excluir" title="">
+                <button class="btn btn-danger">
+                  <i class="glyphicon glyphicon-trash"></i>
+                  excluir
+                </button>
+              </a> 
+
+              <a href="/itens/<%- item._id %>/variar">
+                <button class="btn btn-danger">
+                  <i class="glyphicon glyphicon-edit"></i>
+                  Editar
+                </button> 
+              </a>
+              
+              <a href="/itens/<%- item._id %>/variar">
+                <button class="btn btn-primary">
+                  <i class="glyphicon glyphicon-plus-sign"></i>
+                  incluir variação
+                </button> 
+              </a>
+            </td>
+          </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

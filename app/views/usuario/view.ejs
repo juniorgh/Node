@@ -1,0 +1,17 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2 col-md-2">
+            <img src="/upload/<%- usuario.foto%>" alt="" class="img-rounded img-responsive" />
+        </div>
+        <div class="col-sm-4 col-md-4">
+            <blockquote>
+                <p> <%- usuario.nome %> </p> <small><cite title="Source Title"><%- usuario.cidade %>  <i class="glyphicon glyphicon-map-marker"></i></cite></small>
+            </blockquote>
+            <p> <i class="glyphicon glyphicon-envelope"></i> <%- usuario.email %>
+                <br
+                /> <i class="glyphicon glyphicon-globe"></i> <%- usuario.site %>
+                <br /> <i class="glyphicon glyphicon-gift"></i> <%- moment(usuario.data).format('DD/MM/YY') %></p>
+        </div>
+    </div>
+</div>

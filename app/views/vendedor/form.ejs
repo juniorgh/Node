@@ -1,0 +1,29 @@
+<fieldset>
+    <legend>
+        <h4>
+            Cadastro de vendedores
+        </h4>
+    </legend>
+    <form action="/vendedores/salvar" method="POST" class="form-horizontal" role="form"> 
+        <div class="form-group">
+            <label class="col-sm-2" for="exampleInputNome">Nome</label>
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                <input name="vendedor[nome]"  class="form-control" id="exampleInputNome" placeholder="Digite aqui o nome do vendedor">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2" for="exampleInputNome">Email</label>
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                <input name="vendedor[email]"  class="form-control" id="exampleInputEmail" placeholder="Digite aqui o email do vendedor">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2" for="exampleInputNome"></label>
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                <input  class="btn btn-default"  type="submit"/>
+            </div>
+        </div>
+    </form>
+</fieldset>
