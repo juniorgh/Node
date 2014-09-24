@@ -1,20 +1,22 @@
-var CidadeSchema, mongoose, mongooseAutoIncrement;
+var RepresentativeSchema, mongoose, mongooseAutoIncrement;
 
 mongoose = require("mongoose");
 mongooseAutoIncrement = require("mongoose-auto-increment");
 
-CidadeSchema = new mongoose.Schema({
+RepresentativeSchema = new mongoose.Schema({
   _id: Number,
-  nome: String
+  name: String,
+  email: String
+  //addresses: [RepresentativeAddressSchema]
 },
   {
-    collection: 'cidade'
+    collection: 'representative'
 
   });
 
-CidadeSchema.plugin(mongooseAutoIncrement.plugin, {
+RepresentativeSchema.plugin(mongooseAutoIncrement.plugin, {
   // Nome da model
-  model: 'Cidade',
+  model: 'Representative',
 
   // Valor inicial do auto incremento
   startAt: 1,
@@ -23,4 +25,4 @@ CidadeSchema.plugin(mongooseAutoIncrement.plugin, {
   incrementBy: 1
 });
 
-module.exports = mongoose.model("Cidade",CidadeSchema);
+module.exports = mongoose.model("Representative",RepresentativeSchema);

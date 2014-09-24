@@ -1,0 +1,600 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lege",
+				"legend	Tag"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"au",
+				"auxVendedores"
+			],
+			[
+				"inp",
+				"input	input - email"
+			],
+			[
+				"param",
+				"params"
+			],
+			[
+				"varia",
+				"variacao"
+			],
+			[
+				"rou",
+				"routes"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"it",
+				"Item"
+			],
+			[
+				"Va",
+				"VariacaoSchema"
+			],
+			[
+				"st",
+				"style	Attr"
+			],
+			[
+				"input",
+				"input	input - submit"
+			],
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"usu",
+				"usuario"
+			],
+			[
+				"Permissa",
+				"permissao"
+			],
+			[
+				"Permiss",
+				"permissao"
+			],
+			[
+				"Permis",
+				"permissao"
+			],
+			[
+				"in",
+				"input	input - button"
+			],
+			[
+				"autent",
+				"autenticar"
+			],
+			[
+				"gr",
+				"grupo"
+			],
+			[
+				"gru",
+				"Grupos"
+			],
+			[
+				"autenti",
+				"autentificacao"
+			],
+			[
+				"F",
+				"findById"
+			],
+			[
+				"sty",
+				"style	Attr"
+			],
+			[
+				"the",
+				"thead	<thead>"
+			],
+			[
+				"FIN",
+				"findByIdAndUpdate"
+			],
+			[
+				"usuar",
+				"UsuarioSchema"
+			],
+			[
+				"rout",
+				"router"
+			],
+			[
+				"epx",
+				"expressLayouts"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"commen",
+				"Toggle Comment"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"ident",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indenti",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"coment",
+				"Toggle Comment"
+			],
+			[
+				"decoment",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indentit",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"indente",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"jslin",
+				"JSLint"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"bs3 alert",
+				"Snippet: bs3-alert-danger"
+			],
+			[
+				"table",
+				"Snippet: bs3-table-hover"
+			],
+			[
+				"col 10",
+				"Snippet: bs3-col-10"
+			],
+			[
+				"form hor",
+				"Snippet: bs3-form-horizontal"
+			],
+			[
+				"bs3input-tex",
+				"Snippet: bs3-input-text"
+			],
+			[
+				"bs3form",
+				"Snippet: bs3-form-horizontal"
+			],
+			[
+				"bs3html",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"bs3 html",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"HTML5",
+				"Set Syntax: HTML5"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Program Files/ImageMagick-6.8.9-Q16/index.html",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/controllers/index.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/server.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/item/view.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/item/form.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/models/vendedor.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/models/item.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/models/cidade.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/models/venda.js",
+		"/C/Users/gilson.junior/Documents/Dev/Testes/server.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/models/grupo.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/controllers/venda.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/vendedor/index.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/venda/index.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/models/permissao.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/grupo/index.ejs",
+		"/C/xampp/htdocs/projeto-final/sic/.gitattributes",
+		"/C/xampp/htdocs/sic/index.php",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/controllers/grupo.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/controllers/vendedor.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/vendedor/form.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/item/index.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/controllers/item.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/usuario/index.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/item/variacao.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/item/form",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/models/vendedor",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/permissao/index.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/controllers/permissao.js",
+		"/C/Users/gilson.junior/Documents/Dev/site/server.js",
+		"/C/Users/gilson.junior/Documents/Dev/site/app/models/index.js",
+		"/C/Users/gilson.junior/Documents/Dev/site/app/controllers/index.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/controllers/autentificacao.js",
+		"/C/Users/gilson.junior/Documents/Dev/Site/app/views/index/view.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Site/app/controllers/autentificacao.js",
+		"/C/Users/gilson.junior/Documents/Dev/Site/app/controllers/index.js",
+		"/C/Users/gilson.junior/Documents/Dev/Site/app/models/index.js",
+		"/C/Users/gilson.junior/Documents/Dev/Site/app/views/index/index.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Site/server.js",
+		"/C/Users/gilson.junior/Documents/Dev/Site/app/models/cidade.js",
+		"/C/Users/gilson.junior/Documents/Dev/Site/package.json",
+		"/C/Users/gilson.junior/Documents/Dev/Site/.gitignore",
+		"/C/Users/gilson.junior/Documents/Dev/Node/.gitattributes",
+		"/C/Users/gilson.junior/Documents/Dev/Node/config/production.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/config/default.js",
+		"/C/Users/gilson.junior/Desktop/landing-page/index.html",
+		"/C/Users/gilson.junior/Desktop/grayscale/index.html",
+		"/C/Users/gilson.junior/Desktop/business-casual/index.html",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/grupo/integrantes.ejs",
+		"/C/Users/gilson.junior/Desktop/Bootstrap-Image-Gallery-3.0.1/index.html",
+		"/C/Users/gilson.junior/Desktop/Bootstrap-Image-Gallery-3.1.1/index.html",
+		"/C/Users/gilson.junior/Desktop/Bootstrap-Image-Gallery-3.1.1/js/bootstrap-image-gallery.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/layouts/layout.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/autentificacao/index.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/grupo/view.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/package.json",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/usuario/form.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/usuario/view.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/node_modules/mongoose/node_modules/mpromise/.idea/libraries/Node_js_Dependencies_for_mpromise.xml",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/models/usuario.js",
+		"/C/Users/gilson.junior/Documents/Dev/teste/views/error.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/error/error.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/teste/node_modules/less-middleware/node_modules/less/test/css/variables-in-at-rules.css",
+		"/C/Users/gilson.junior/Documents/Dev/Node/node_modules/mongoose/lib/virtualtype.js",
+		"/C/Users/gilson.junior/Documents/Dev/teste/node_modules/less-middleware/node_modules/less/lib/less/visitor.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/controllers/cidade.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/cidade/index.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/permissao",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/controllers/permissao",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/models/area.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/controllers/area.js",
+		"/C/Users/gilson.junior/AppData/Roaming/Sublime Text 3/Packages/User/JSLint.sublime-settings",
+		"/C/Users/gilson.junior/AppData/Roaming/Sublime Text 3/Packages/JSLint/JSLint.sublime-settings",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/autentificacao/cadastrar.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/autentificacao/validador.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/usuario/cadastrar.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/autentificacao/erroAltenticidade.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/grupo/form.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/controllers/Usuario.js",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/usuario/excluir.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/usuario/editar.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/usuario/editar",
+		"/C/Users/gilson.junior/Documents/Dev/Node/.gitignore",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/index/index.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/cadastrar/view.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/cadastrar/index.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/index/teste2.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/index/teste.ejs",
+		"/C/Users/gilson.junior/Documents/Dev/Node/app/views/user/index.ejs",
+		"/C/Users/gilson.junior/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Item",
+			"item",
+			"</leg",
+			"out",
+			"usu",
+			"<% }); %>",
+			"dad",
+			"save",
+			"param",
+			"primary",
+			"prima",
+			"primary",
+			"danger",
+			"add",
+			"id",
+			"tras",
+			"ex",
+			"excl",
+			".render('item/view',{\n  // });",
+			"index",
+			"teste",
+			"tes",
+			"teste",
+			"log",
+			"item",
+			"varia",
+			"new",
+			"incluirVariacao",
+			"dados",
+			"req.param",
+			"salvar",
+			"param",
+			"params",
+			"params(",
+			"pass",
+			"find",
+			"one",
+			"One",
+			"find",
+			"one",
+			"on",
+			"one",
+			"pone",
+			"One",
+			"On",
+			"usuarios",
+			"grupo",
+			"salvar",
+			"=",
+			"controller",
+			"venda",
+			"vendas",
+			"PermissaoSchema",
+			"permissoes",
+			"permissao",
+			"vendas",
+			"permiss",
+			"permissoes",
+			"item",
+			"permiss",
+			"redirec",
+			"itens",
+			"item",
+			"itens",
+			"model",
+			"grupo",
+			"perm",
+			"grupo",
+			"GrupoSchema",
+			"ite",
+			"itens",
+			"item",
+			"err(",
+			"err",
+			"if(err",
+			"grupo",
+			"usu",
+			"gru",
+			"gruo",
+			"mode",
+			"conectado",
+			"novo",
+			"};\n",
+			"item",
+			"itens",
+			"item",
+			"grupo",
+			"itens",
+			"item",
+			"ite,",
+			"itens",
+			"item",
+			"usuario",
+			"index",
+			"usuarios",
+			"iten",
+			"itens);",
+			"itens",
+			"grupos",
+			"grupo",
+			"permissao",
+			"Cidade",
+			"cidade",
+			"CidadeSchema",
+			"ItemSchema",
+			"grupo",
+			"permiss",
+			"autentific",
+			"autentif",
+			"autentic",
+			"usu",
+			"usu[",
+			"gr",
+			"grup",
+			"area",
+			"altent",
+			"altenti",
+			"autenti",
+			"autentificacao",
+			"altentific",
+			"usuario",
+			"grupo",
+			"usuario",
+			"img",
+			"link",
+			"password",
+			"UserSchema",
+			"grupo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"function (",
+			") {"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "item.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"inden",
+				"Node\\node_modules\\mongoose\\node_modules\\mpromise\\.idea\\libraries\\Node_js_Dependencies_for_mpromise.xml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"exc",
+				"excluir"
+			]
+		],
+		"width": 728.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
